@@ -12,4 +12,6 @@ app.set('port', 3000);
 app.use(bodyParser.json());
 app.use('/', express.static(pach.join(__dirname, 'public')));
 
-app.listen(app.get('port'), );
+app.listen(app.get('port'), () => {
+    
+});
